@@ -11,7 +11,7 @@ void pattern(int n)
 
 
 
-}
+}eeeeeeeeeeeeeeeeeee
 
 int main()
 {
