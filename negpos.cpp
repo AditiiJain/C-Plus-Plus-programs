@@ -16,16 +16,16 @@ void negpos(int a[], int n)
 
     while(low<high)
     {
-          if(a[low]<0 && low<n-1)
+          if(a[low]<0 && low<=n-1)
           {
                 low++;
           }
-          else if(a[high]>0 && high>0)
+          else if(a[high]>0 && high>=0)
           {
                 high--;
           }
           else{
-               int temp = a[high];
+            int temp = a[high];
             a[high] = a[low];
             a[low] = temp;
             low++;
